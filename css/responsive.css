@@ -1,0 +1,128 @@
+@media (max-width: 991px) {
+    .header .logo{
+        margin-left: 10px;
+    }
+    .header .nav-menu .header-btn{
+        margin-left: 0;
+    }
+    .header .nav-menu .header-btn{
+        margin-right: 10px;
+    }
+    .header .nav-menu .nav{
+        width: 100%;
+        background-color: var(--white-900);
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+    }
+    .header .nav-menu .nav ul li{
+        display: block;
+        line-height: 50px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .header .nav-toggler{
+        display: flex;
+    }
+    .operation-section .operation-img, 
+    .operation-section .operation-text,
+    .experience-section .experience-img,
+    .experience-section .experience-text{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .operation-section .operation-img, 
+    .operation-section .operation-text,
+    .experience-section .experience-img,
+    .experience-section .experience-text{
+        text-align: center;
+    }
+    .operation-section .operation-img{
+        order: -1;
+    }
+    .experience-section .experience-text,
+    .operation-section .operation-text{
+        margin-top: 50px;
+    }
+    .our-services-section .our-service-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home-section .home-text p,
+    .experiences-section .experiences-text .text h2,
+    .operation-section .operation-text .text h2,
+    .experience-section .experience-text .text h2{
+        padding: 0;
+    }
+}
+@media (max-width: 767px) {
+    .home-section .home-img{
+        display: none;
+    }
+    .home-section .home-text h1{
+        padding: 0;
+    }
+    .contact-section .contact-form .col-6,
+    .contact-section .contact-form,
+    .contact-section .contact-info,
+    .counter-section .counter-item,
+    .news-section .news-item,
+    .pricing-section .pricing-item,
+    .experiences-section .experiences-img, 
+    .experiences-section .experiences-text,
+    .our-services-section .our-service-item,
+    .services-section .service-item,
+    .home-section .home-text {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-section .home-text{
+        text-align: center;
+        margin-top: 100px;
+        padding: 0 20px;
+    }
+    .newsletter-section .newslatter-form form button,
+    .newsletter-section .newslatter-form form input,
+    .home-section .home-text .sub-form form .btn-2,
+    .home-section .home-text .sub-form form input{
+        width: 100%;
+    }
+    .newsletter-section .newslatter-form form button,
+    .newsletter-section .newslatter-form form input{
+        border-radius: 0;
+    }
+    .operation-section .operation-img{
+        order: 2;
+        margin-top: 50px;
+    }
+    .contact-section .contact-info,
+    .copyright-section .text p,
+    .experiences-section .experiences-text{
+        padding-left: 10px;
+    }
+    .experiences-text{
+        margin-top: 50px;
+    }
+    .newsletter-section .newslatter-form{
+        padding: 0 20px;
+    }
+    .contact-section .contact-info{
+        text-align: center;
+    }
+    .contact-section .contact-form{
+        margin-top: 50px;
+    }
+    .contact-section .contact-info hr{
+        margin: 15px auto 0;
+    }
+}
+@media (max-width: 575px) {
+    .newsletter-section .text h1,
+    .home-section .home-text h1{
+        font-size: 30px;
+    }
+    .copyright-section .social-link{
+        margin: auto;
+    }
+}
